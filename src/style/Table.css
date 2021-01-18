@@ -1,0 +1,28 @@
+.table-wrapper {
+  overflow: hidden;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+table {
+  border-spacing: 0;
+  text-align: center;
+}
+
+.table-header {
+  background-color: #000033;
+  color: #fff;
+  width: 100%;
+}
+
+table tr td {
+  padding: 0 10px;
+}
+
+table tr:nth-child(odd) td{
+  padding-bottom: 10px;
+}
+
+table tr:nth-child(even) td{
+  padding-top: 10px;
+}
